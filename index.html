@@ -57,10 +57,12 @@
         }
 
         header {
-            background: #1a1a1a;
-            padding: 40px 20px 30px;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+                        url('header-bg.jpg') center/cover;
+            padding: 80px 20px 60px;
             text-align: center;
             border-bottom: 1px solid #2a2a2a;
+            position: relative;
         }
 
         h1 {
@@ -69,22 +71,36 @@
             color: #ff8844;
             letter-spacing: 0.05em;
             font-weight: 300;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .subtitle-en {
             font-size: 1em;
-            color: #999;
-            margin-bottom: 5px;
+            color: #ccc;
+            margin-bottom: 0;
             letter-spacing: 0.1em;
             font-weight: 300;
+            animation: fadeIn 1.2s ease-out;
         }
 
-        .subtitle {
-            font-size: 1.1em;
-            color: #888;
-            margin-bottom: 30px;
-            letter-spacing: 0.15em;
-            font-weight: 300;
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
         }
 
         nav {
@@ -356,7 +372,6 @@
     <header>
         <h1>加藤晃介</h1>
         <p class="subtitle-en">Kosuke Kato</p>
-        <p class="subtitle">1996/07/11</p>
     </header>
 
     <nav>
