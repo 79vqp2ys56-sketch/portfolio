@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>加藤晃介 ポートフォリオ</title>
+    <title>映像クリエイター ポートフォリオ</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -31,9 +31,9 @@
             width: 100%;
             height: 100%;
             background: 
-                radial-gradient(circle at 20% 50%, rgba(0, 255, 136, 0.05) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(0, 204, 102, 0.05) 0%, transparent 50%),
-                radial-gradient(circle at 40% 20%, rgba(0, 255, 136, 0.03) 0%, transparent 50%);
+                radial-gradient(circle at 20% 50%, rgba(255, 120, 50, 0.04) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 150, 80, 0.04) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(255, 100, 30, 0.03) 0%, transparent 50%);
             animation: backgroundMove 20s ease-in-out infinite;
             pointer-events: none;
             z-index: 0;
@@ -66,8 +66,16 @@
         h1 {
             font-size: 3.5em;
             margin-bottom: 20px;
-            color: #00ff88;
+            color: #ff8844;
             letter-spacing: 0.05em;
+            font-weight: 300;
+        }
+
+        .subtitle-en {
+            font-size: 1em;
+            color: #999;
+            margin-bottom: 5px;
+            letter-spacing: 0.1em;
             font-weight: 300;
         }
 
@@ -101,10 +109,15 @@
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
+            cursor: pointer;
         }
 
         nav a:hover {
-            color: #00ff88;
+            color: #ff8844;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         .container {
@@ -135,7 +148,7 @@
             transform: translateX(-50%);
             width: 40px;
             height: 1px;
-            background: #00ff88;
+            background: #ff8844;
         }
 
         .portfolio-grid {
@@ -180,7 +193,7 @@
         }
 
         .title-link:hover {
-            color: #00ff88;
+            color: #ff8844;
         }
 
         .portfolio-info {
@@ -211,7 +224,7 @@
             padding: 5px 12px;
             border-radius: 15px;
             font-size: 0.85em;
-            color: #00ff88;
+            color: #ff8844;
             border: 1px solid #444;
         }
 
@@ -243,7 +256,7 @@
         }
 
         .about-text h3 {
-            color: #00ff88;
+            color: #ff8844;
             margin-bottom: 15px;
             font-size: 1.5em;
         }
@@ -267,7 +280,7 @@
         }
 
         .skill-card h3 {
-            color: #00ff88;
+            color: #ff8844;
             margin-bottom: 15px;
             font-size: 1.2em;
         }
@@ -295,7 +308,7 @@
         }
 
         .contact-info a {
-            color: #00ff88;
+            color: #ff8844;
             text-decoration: none;
             font-size: 1.2em;
             display: inline-block;
@@ -304,7 +317,7 @@
         }
 
         .contact-info a:hover {
-            color: #00cc66;
+            color: #ff9955;
         }
 
         footer {
@@ -341,7 +354,8 @@
 <body>
     <header>
         <h1>加藤晃介</h1>
-        <p class="subtitle">After Effects / DaVinci Resolve Studio / Capture One / Premiere Pro</p>
+        <p class="subtitle-en">Kosuke Kato</p>
+        <p class="subtitle">1996/07/11</p>
     </header>
 
     <nav>
@@ -468,7 +482,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2026 Kosuke Kato</p>
     </footer>
 </body>
 </html>
