@@ -16,16 +16,16 @@
 
         body {
             font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-            background: #0a0a0a;
+            background: #141414;
             color: #ffffff;
             line-height: 1.6;
         }
 
         header {
-            background: #0a0a0a;
+            background: #1a1a1a;
             padding: 60px 20px 40px;
             text-align: center;
-            border-bottom: 1px solid #1a1a1a;
+            border-bottom: 1px solid #2a2a2a;
         }
 
         h1 {
@@ -50,7 +50,7 @@
             position: sticky;
             top: 0;
             z-index: 100;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid #2a2a2a;
         }
 
         nav ul {
@@ -110,11 +110,11 @@
         }
 
         .portfolio-item {
-            background: #0f0f0f;
+            background: #1a1a1a;
             border-radius: 0;
             overflow: hidden;
             transition: transform 0.3s ease;
-            border: 1px solid #1a1a1a;
+            border: 1px solid #2a2a2a;
         }
 
         .portfolio-item:hover {
@@ -204,7 +204,7 @@
             background: #1a1a1a;
             padding: 30px;
             border-radius: 10px;
-            border: 1px solid #333;
+            border: 1px solid #2a2a2a;
         }
 
         .about-text h3 {
@@ -228,7 +228,7 @@
             background: #1a1a1a;
             padding: 25px;
             border-radius: 10px;
-            border: 1px solid #333;
+            border: 1px solid #2a2a2a;
         }
 
         .skill-card h3 {
@@ -256,7 +256,7 @@
             background: #1a1a1a;
             padding: 40px;
             border-radius: 10px;
-            border: 1px solid #333;
+            border: 1px solid #2a2a2a;
         }
 
         .contact-info a {
@@ -277,7 +277,7 @@
             text-align: center;
             padding: 30px 20px;
             color: #666;
-            border-top: 1px solid #333;
+            border-top: 1px solid #2a2a2a;
         }
 
         @media (max-width: 768px) {
@@ -352,15 +352,42 @@
 
                 <div class="portfolio-item">
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <img src="thumbnail3.jpg" alt="ショートムービー サムネイル" class="video-thumbnail">
                     </div>
                     <div class="portfolio-info">
-                        <h3 class="portfolio-title">プロジェクトタイトル 3</h3>
-                        <p class="portfolio-desc">モーショングラフィックスを活用した説明動画。複雑な情報をわかりやすく視覚化。</p>
+                        <h3 class="portfolio-title"><a href="https://www.instagram.com/reel/DQAVANwk46U/?utm_source=ig_web_copy_link" target="_blank" class="title-link">ミュージックビデオのフッテージを再編集したショートムービー</a></h3>
+                        <p class="portfolio-desc">本人の承諾をいただき、作成したMVで使用したフッテージを再編集、再度カラーグレーディングをし、異なるSEを加えショートムービーを作成しました。</p>
                         <div class="portfolio-tags">
-                            <span class="tag">モーショングラフィックス</span>
-                            <span class="tag">インフォグラフィック</span>
-                            <span class="tag">Cinema 4D</span>
+                            <span class="tag">After Effects</span>
+                            <span class="tag">DaVinci Resolve</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="video-container">
+                        <img src="thumbnail4.jpg" alt="カメラ作例① サムネイル" class="video-thumbnail">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title"><a href="https://www.instagram.com/reel/DKoh01TvMjg/?igsh=MWx6b2hveHppaWZ1Zg%3D%3D" target="_blank" class="title-link">愛用しているカメラの作例動画①</a></h3>
+                        <p class="portfolio-desc">愛用しているカメラの作例動画を自主制作。モーショングラフィックスと実写映像を組み合わせ、レンズ構成のイラストからメーカーのロゴへと変形するモーショングラフィックスを用いた映像表現を行いました。</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">After Effects</span>
+                            <span class="tag">DaVinci Resolve</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="video-container">
+                        <img src="thumbnail5.jpg" alt="カメラ作例② サムネイル" class="video-thumbnail">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title"><a href="https://www.instagram.com/reel/DKCV1YpPc7b/?igsh=MXJnOTRpMG9zMHNzbQ%3D%3D" target="_blank" class="title-link">愛用しているカメラの作例動画②</a></h3>
+                        <p class="portfolio-desc">愛用しているカメラの作例動画を自主制作。気軽に使えるカメラであることを表現するため、スピード感を重視した撮影および編集を行いました。</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">After Effects</span>
+                            <span class="tag">DaVinci Resolve</span>
                         </div>
                     </div>
                 </div>
@@ -386,40 +413,10 @@
                 <div class="skill-card">
                     <h3>編集ソフト</h3>
                     <ul class="skill-list">
-                        <li>Adobe Premiere Pro</li>
-                        <li>Adobe After Effects</li>
-                        <li>DaVinci Resolve</li>
-                        <li>Final Cut Pro X</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card">
-                    <h3>モーショングラフィックス</h3>
-                    <ul class="skill-list">
-                        <li>Cinema 4D</li>
-                        <li>Blender</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Photoshop</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card">
-                    <h3>撮影・制作</h3>
-                    <ul class="skill-list">
-                        <li>カメラオペレーション</li>
-                        <li>照明セッティング</li>
-                        <li>音声収録</li>
-                        <li>ディレクション</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card">
-                    <h3>その他</h3>
-                    <ul class="skill-list">
-                        <li>カラーグレーディング</li>
-                        <li>サウンドデザイン</li>
-                        <li>ストーリーボード作成</li>
-                        <li>プロジェクト管理</li>
+                        <li>After Effects</li>
+                        <li>DaVinci Resolve Studio</li>
+                        <li>Capture One</li>
+                        <li>Premiere Pro</li>
                     </ul>
                 </div>
             </div>
@@ -428,12 +425,8 @@
         <section id="contact" class="section">
             <h2 class="section-title">Contact</h2>
             <div class="contact-info">
-                <p style="color: #ccc; margin-bottom: 20px;">お仕事のご依頼・ご相談はこちらからお気軽にどうぞ</p>
                 <div>
-                    <a href="mailto:your.email@example.com">📧 your.email@example.com</a>
-                    <a href="https://twitter.com/yourhandle" target="_blank">🐦 Twitter</a>
-                    <a href="https://instagram.com/yourhandle" target="_blank">📷 Instagram</a>
-                    <a href="https://youtube.com/@yourchannel" target="_blank">▶️ YouTube</a>
+                    <a href="mailto:pilgrim01160220@gmail.com">📧 pilgrim01160220@gmail.com</a>
                 </div>
             </div>
         </section>
