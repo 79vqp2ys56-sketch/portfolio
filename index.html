@@ -58,7 +58,7 @@
 
         header {
             background: #1a1a1a;
-            padding: 60px 20px 40px;
+            padding: 40px 20px 30px;
             text-align: center;
             border-bottom: 1px solid #2a2a2a;
         }
@@ -235,17 +235,18 @@
             align-items: start;
         }
 
-        .profile-image {
+        .profile-image-wrapper {
             width: 100%;
             max-width: 300px;
-            aspect-ratio: 1;
-            background: linear-gradient(135deg, #00ff88 0%, #00cc66 100%);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 4em;
             margin: 0 auto;
+        }
+
+        .profile-photo {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #ff8844;
         }
 
         .about-text {
@@ -440,18 +441,37 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="portfolio-item">
+                    <div class="video-container">
+                        <img src="thumbnail6.jpg" alt="mellow MV サムネイル" class="video-thumbnail">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title"><a href="https://www.youtube.com/watch?v=5yWsdznP1iA" target="_blank" class="title-link">ミュージックビデオ『mellow』</a></h3>
+                        <p class="portfolio-desc">アーティストからの依頼を受け、ミュージックビデオの制作を担当しました。依頼者から受領した絵コンテとIllustratorのイラストデータを用いてヘンゼルとグレーテルがテーマのアニメーションを作成。</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="about" class="section">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <div class="profile-image">📹</div>
+                <div class="profile-image-wrapper">
+                    <img src="profile.jpg" alt="加藤晃介" class="profile-photo">
+                </div>
                 <div class="about-text">
                     <h3>自己紹介</h3>
-                    <p>映像制作歴◯年。企業プロモーション、ミュージックビデオ、YouTube動画など、幅広いジャンルの映像制作を手がけてきました。</p>
-                    <p>クライアントのビジョンを映像で実現することに情熱を注いでおり、企画からポストプロダクションまで一貫して対応可能です。</p>
-                    <p>常に新しい技術やトレンドを学び続け、視聴者の心に残る映像作りを目指しています。</p>
+                    <p>写真歴13年、映像制作歴4年。<br>
+                    現在は、弁護士を主要顧客とする広告代理店の映像事業部にて、映像制作を担当しています。</p>
+                    <p>ミラーレス／シネマカメラを用いた実写撮影、編集、カラーグレーディング、モーショングラフィックスまで一貫して対応可能です。<br>
+                    専門性が高く表現に制約のある業界においても、要件を整理し、情報を正確に伝える映像設計を行っています。<br>
+                    表現性と再現性の両立を意識し、実務に耐えるアウトプットを心がけています。</p>
+                    <p>写真分野では、毎年2回、松屋銀座にて作品展示の機会をいただいています。</p>
+                    <p><strong>趣味</strong>：フィルムカメラ、古い航空機の模型制作、ランニング</p>
                 </div>
             </div>
         </section>
