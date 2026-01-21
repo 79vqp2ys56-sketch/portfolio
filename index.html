@@ -178,7 +178,7 @@
             background: #1a1a1a;
             border-radius: 0;
             overflow: hidden;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
             border: 1px solid #2a2a2a;
         }
 
@@ -189,7 +189,16 @@
         }
 
         .portfolio-link:hover .portfolio-item {
-            transform: translateY(-3px);
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(255, 136, 68, 0.3);
+        }
+
+        .portfolio-link:hover .video-thumbnail {
+            transform: scale(1.05);
+        }
+
+        .video-thumbnail {
+            transition: transform 0.3s ease;
         }
 
         .video-container {
@@ -515,7 +524,7 @@
                     専門性が高く表現に制約のある業界においても、要件を整理し、情報を正確に伝える映像設計を行っています。<br>
                     表現性と再現性の両立を意識し、実務に耐えるアウトプットを心がけています。</p>
                     <p>写真分野では、毎年2回、松屋銀座にて作品展示の機会をいただいています。</p>
-                    <p><strong>趣味</strong>：フィルムカメラ、古い航空機の模型制作、旅、ランニング</p>
+                    <p><strong>趣味</strong>：フィルムカメラ、古い航空機の模型制作、ランニング</p>
                 </div>
             </div>
         </section>
